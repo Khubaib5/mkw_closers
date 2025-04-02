@@ -34,7 +34,7 @@ export function AnimatedBeamMultipleOutputDemo({
   const div2Ref = useRef<HTMLDivElement>(null);
   const div3Ref = useRef<HTMLDivElement>(null);
   const div4Ref = useRef<HTMLDivElement>(null);
-  const div5Ref = useRef<HTMLDivElement>(null);
+  // const div5Ref = useRef<HTMLDivElement>(null);
   const div6Ref = useRef<HTMLDivElement>(null);
   const div7Ref = useRef<HTMLDivElement>(null);
 

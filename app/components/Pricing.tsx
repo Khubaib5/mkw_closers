@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export const DarkPricing = () => {
   // Replace with your actual calendar link
-  const consultationLink = "YOUR_CALENDAR_LINK_HERE";
+  // const consultationLink = "YOUR_CALENDAR_LINK_HERE";
 
   return (
     <section className="relative overflow-hidden text-zinc-200 selection:bg-zinc-600" id="booking">
@@ -134,19 +134,6 @@ const Card = ({ className, children, style = {} }: CardProps) => {
   );
 };
 
-const GhostButton = ({ children, className, ...rest }: GhostButtonProps) => {
-  return (
-    <button
-      className={cn(
-        "rounded-md px-4 py-2 text-lg text-zinc-100 transition-all hover:scale-[1.02] hover:bg-zinc-800 hover:text-zinc-50 active:scale-[0.98]",
-        className
-      )}
-      {...rest}
-    >
-      {children}
-    </button>
-  );
-};
 
 // New LinkButton component
 const LinkButton = ({ children, className, href, ...rest }: LinkButtonProps) => {
@@ -183,10 +170,10 @@ type BenefitType = {
   checked: boolean;
 };
 
-type GhostButtonProps = {
-  children: ReactNode;
-  className?: string;
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
+// type GhostButtonProps = {
+//   children: ReactNode;
+//   className?: string;
+// } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 type LinkButtonProps = {
   children: ReactNode;
