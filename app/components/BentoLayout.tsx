@@ -11,7 +11,7 @@ import {
 const features = [
   {
     Icon: FileTextIcon,
-    name: "MKW Closers is a dynamic sales training agency",
+    name: "MKW Closers is a dynamic sales training company",
     description: "Empowering sales reps with the NEPQ methodology for closing more deals.",
     href: "/",
     cta: "Learn more",
@@ -47,7 +47,7 @@ const features = [
   },
   {
     Icon: GlobeIcon,
-    name: "Tailored Training for Success",
+    name: "Personalised Training for Success",
     description:
       "Our sales training programs are designed to equip you with the skills you need to succeed in any sales environment.",
     href: "/",
